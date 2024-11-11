@@ -21,33 +21,13 @@ warnings.filterwarnings('ignore')
 import tensorflow as tf
 import tensorflow.experimental.numpy as tnp
 
-#tf.debugging.enable_check_numerics()
 tf.keras.backend.clear_session()
-#tf.debugging.set_log_device_placement(True)
-#tf.keras.config.set_floatx('float32')
-#tf.keras.mixed_precision.set_global_policy('float32')
-#tf.config.run_functions_eagerly(True)
-#logdir = './tensorboard/debugger'
-
-#tf.debugging.experimental.enable_dump_debug_info(logdir1, tensor_debug_mode="FULL_HEALTH", circular_buffer_size=-1)
-# 启动 Profiler
-#tf.profiler.experimental.start(logdir1)
-
-#tf.profiler.experimental.start(logdir1)
-
-# 启动 profiling
-#tf.profiler.experimental.trace_on(graph=True, profiler_outdir=logdir1)
-#tf.summary.trace_on(graph=True, profiler=True, profiler_outdir=logdir1)
 
 from tensorflow.keras.models import Model, load_model
 
 from tensorflow.keras.optimizers import Adam, RMSprop
 from tensorflow.keras.layers import Dropout, Dense, Flatten, Layer, Add
 from tensorflow.keras import ops
-
-# kerastuner
-import keras_tuner as kt
-from kerastuner import HyperParameters
 
 
 class Linear(Layer):
