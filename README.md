@@ -22,8 +22,8 @@ Analyzing the fundamental encoding conflict between NAIS-Net's "non-autonomous" 
 - NumPy, SciPy, Matplotlib, Qiskit (for quantum exploration)
 
 ## 📄 Final Reports
-- [FPE Solver Report](FokkerPlanckSolver/'Barrier Call Option Pricing.pdf')
-- [NAIS-Net Framework Report](NAISNet_FBSDE/'NAIS-Net Framework for Solving High Dimensional FBSDEs in the Pricing of European Options.pdf')
+- [FPE Solver Report](FokkerPlanckSolver/Barrier Call Option Pricing.pdf)
+- [NAIS-Net Framework Report](NAISNet_FBSDE/NAIS-Net Framework for Solving High Dimensional FBSDEs in the Pricing of European Options.pdf)
 
 ## 📬 Contact
 For questions or collaboration, feel free to open an issue or reach out via [GitHub](https://github.com/elevenwang-creator/CQF-project).
