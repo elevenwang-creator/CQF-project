@@ -23,7 +23,7 @@ Analyzing the fundamental encoding conflict between NAIS-Net's "non-autonomous" 
 
 ## 📄 Final Reports
 - [FPE Solver Report](FokkerPlanckSolver/Barrier_Call_Option_Pricing.ipynb)
-- [NAIS-Net Framework Report](NAISNet_FBSDE/NAIS-Net_Framework_for_Solving_High_Dimensional_FBSDEs_in_the_Pricing_of_European_Options)
+- [NAIS-Net Framework Report](NAISNet_FBSDE/NAIS-Net_Framework_for_Solving_High_Dimensional_FBSDEs_in_the_Pricing_of_European_Options.pdf)
 
 ## 📬 Contact
 For questions or collaboration, feel free to open an issue or reach out via [GitHub](https://github.com/elevenwang-creator/CQF-project).
