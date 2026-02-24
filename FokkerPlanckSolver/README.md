@@ -9,3 +9,11 @@ numerical solution is applied to price barrier options under the Heston stochast
 
 Paper Source: 
 Stoykov, S. (2024). [Numerical Solution of Fokker-Planck Equation by Variational Approach – an Application to Pricing Barrier Options. *Wilmott*, 2024(133).](https://doi.org/10.54946/wilm.12077)
+
+## Technology Detail:
+1. B-Splines with non-uniform knots;
+2. Recombined basis function for imposing boundary conditions;
+3. The OSQP (Operator Splitting Quadratic Program) solver for Delta function approximation;
+4. Fifth-order implicit Runge-Kutta method;
+5. Gauss-Legendre quadrature;
+6. Chebyshev nodes to reduce Runge's phenomenon.
