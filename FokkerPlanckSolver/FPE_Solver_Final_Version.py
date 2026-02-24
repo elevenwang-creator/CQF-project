@@ -52,7 +52,7 @@ class GenerateKnots:
         
     def func_parabolic(self, n, boundary):
         """
-        Generate a hyperbolic function for knot distribution. -- f(x) = 0.5 * a * (x - factor)^2 + centor
+        Generate a parabolic function for knot distribution. -- f(x) = 0.5 * a * (x - factor)^2 + centor
 
         Parameters:
         n: number of points
